@@ -1,5 +1,5 @@
-# "Modelling of Information Systems" Group Project
-## Modelling of an information system for a courier service
+# "Modeling of Information Systems" Group Project
+## Modeling of an information system for a courier service
 Project consists of:
 - UML diagrams
 	- 1 usecase diagram
