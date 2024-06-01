@@ -31,8 +31,11 @@
 		<Form.Description />
 		<Form.FieldErrors />
 	</Form.Field>
-	<p class="my-2">
+
+	<p class="my-2 text-center">
 		Nemate nalog? <a class="hover:underline" href="/register">Registracija</a>
 	</p>
-	<Form.Button>Prijavi se</Form.Button>
+	<div class="my-2 flex w-full justify-center">
+		<Form.Button>Prijavi se</Form.Button>
+	</div>
 </form>
