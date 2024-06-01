@@ -59,7 +59,7 @@
 	<Form.Field {form} name="addr_number">
 		<Form.Control let:attrs>
 			<Form.Label>Broj ulice</Form.Label>
-			<Input type="text" {...attrs} bind:value={$formData.addr_number} />
+			<Input type="number" {...attrs} bind:value={$formData.addr_number} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -83,7 +83,7 @@
 	<Form.Field {form} name="addr_zip">
 		<Form.Control let:attrs>
 			<Form.Label>Poštanski broj</Form.Label>
-			<Input type="text" {...attrs} bind:value={$formData.addr_zip} />
+			<Input type="number" {...attrs} bind:value={$formData.addr_zip} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
