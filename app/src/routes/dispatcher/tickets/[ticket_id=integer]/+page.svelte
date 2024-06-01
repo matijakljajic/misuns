@@ -20,3 +20,16 @@
 		</form>
 	</div>
 </div>
+
+<hr class="my-2 border border-neutral-200" />
+
+{#if ticket.messages.length === 0}
+	<p class="text-lg font-medium">Nema komentara.</p>
+{:else}
+	{#each ticket.messages as message}
+		<div class="flex space-x-2">
+			<p class="text-lg font-medium">{message.author}:</p>
+			<p class="text-lg">{message.content}</p>
+		</div>
+	{/each}
+{/if}
