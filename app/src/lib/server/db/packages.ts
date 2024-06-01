@@ -1,5 +1,6 @@
 import type { PackageType } from '$lib/types/package';
 import { PackageStatusEnum } from '../../types/packagestatus';
+import { getClientExample, getClientExample2 } from './clients';
 
 const packages: PackageType[] = [
 	{
@@ -7,21 +8,27 @@ const packages: PackageType[] = [
 		value: 2000,
 		mass: 100,
 		note: 'Lomljivo',
-		status: PackageStatusEnum.delivered
+		status: PackageStatusEnum.delivered,
+		sender: getClientExample(),
+		recipient: getClientExample2()
 	},
 	{
 		id: 2,
 		value: 0,
 		mass: 50,
 		note: 'Nemam.',
-		status: PackageStatusEnum.picked_up
+		status: PackageStatusEnum.picked_up,
+		sender: getClientExample(),
+		recipient: getClientExample2()
 	},
 	{
 		id: 3,
 		value: 500,
 		mass: 1000,
 		note: '',
-		status: PackageStatusEnum.returned
+		status: PackageStatusEnum.returned,
+		sender: getClientExample(),
+		recipient: getClientExample2()
 	}
 ];
 

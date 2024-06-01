@@ -5,7 +5,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
 	const tickets = getTickets();
 	if (!tickets) {
-		error(404, 'Dispatchers not found');
+		error(404, 'Tickets not found');
 	}
 
 	return {

@@ -5,7 +5,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
 	const courier = getCourierById(Number(params.courier_id));
 	if (!courier) {
-		error(404, 'courier not found');
+		error(404, 'Courier not found');
 	}
 
 	return {
