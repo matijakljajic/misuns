@@ -1,6 +1,7 @@
+import type { DispatcherType } from '$lib/types/dispatcher';
 import { PositionsEnum } from '../../types/positions';
 
-const dispatchers = [
+const dispatchers: DispatcherType[] = [
 	{
 		id: 1,
 		email: 'dis1@example.org',
@@ -42,10 +43,10 @@ const dispatchers = [
 	}
 ];
 
-export function getDispatchers() {
+export function getDispatchers(): DispatcherType[] {
 	return dispatchers;
 }
 
-export function getDispatcherById(id: number) {
+export function getDispatcherById(id: number): DispatcherType | undefined {
 	return dispatchers.find((d) => d.id === id);
 }

@@ -4,6 +4,7 @@
 
 	import Male from '$lib/assets/avatars/male.svg';
 	import Female from '$lib/assets/avatars/female.svg';
+	import Button from '$lib/components/ui/button/button.svelte';
 	const randomBoolean = Math.random() < 0.5;
 	const avatar = randomBoolean ? Male : Female;
 
@@ -34,9 +35,16 @@
 		{dispatcher.addr_number}, {dispatcher.addr_city}
 		{dispatcher.addr_zip}, {dispatcher.addr_country}
 	</p>
-	<form class="flex items-center justify-center">
-		<button type="submit" class="size-fit rounded-xl bg-rose-700 hover:bg-red-500">
-			<p class="px-4 py-2 font-bold">Otpusti</p>
-		</button>
-	</form>
+	<div class="flex items-center justify-center space-x-3">
+		<form>
+			<Button variant="destructive" type="submit" class="size-fit rounded-xl">
+				<p class="px-4 py-2 font-bold">Otpusti</p>
+			</Button>
+		</form>
+		<a href="/admin/dispatchers/{dispatcher.id}/update">
+			<Button variant="default" class="size-fit rounded-xl">
+				<p class="px-4 py-2 font-bold">Izmeni</p>
+			</Button>
+		</a>
+	</div>
 </div>

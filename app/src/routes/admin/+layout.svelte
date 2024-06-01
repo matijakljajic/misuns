@@ -5,9 +5,9 @@
 <nav>
 	<Menubar.Root>
 		<Menubar.Menu>
-			<Menubar.Trigger>Meni</Menubar.Trigger>
+			<Menubar.Trigger>Dispečeri</Menubar.Trigger>
 			<Menubar.Content>
-				<a href="/admin/dispatchers"><Menubar.Item>Dispečeri</Menubar.Item></a>
+				<a href="/admin/dispatchers"><Menubar.Item>Pregled</Menubar.Item></a>
 				<a href="/admin/dispatchers/hire"><Menubar.Item>Zaposli</Menubar.Item></a>
 			</Menubar.Content>
 		</Menubar.Menu>
