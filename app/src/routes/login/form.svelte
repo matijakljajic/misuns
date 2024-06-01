@@ -18,7 +18,7 @@
 	<Form.Field {form} name="email">
 		<Form.Control let:attrs>
 			<Form.Label>Email</Form.Label>
-			<Input {...attrs} bind:value={$formData.email} />
+			<Input type="email" {...attrs} bind:value={$formData.email} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -26,7 +26,7 @@
 	<Form.Field {form} name="password">
 		<Form.Control let:attrs>
 			<Form.Label>Password</Form.Label>
-			<Input {...attrs} bind:value={$formData.password} />
+			<Input type="password" {...attrs} bind:value={$formData.password} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />

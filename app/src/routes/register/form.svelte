@@ -19,7 +19,7 @@
 	<Form.Field {form} name="email">
 		<Form.Control let:attrs>
 			<Form.Label>Email</Form.Label>
-			<Input {...attrs} bind:value={$formData.email} />
+			<Input type="email" {...attrs} bind:value={$formData.email} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -27,7 +27,7 @@
 	<Form.Field {form} name="fname">
 		<Form.Control let:attrs>
 			<Form.Label>First name</Form.Label>
-			<Input {...attrs} bind:value={$formData.fname} />
+			<Input type="text" {...attrs} bind:value={$formData.fname} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -35,7 +35,7 @@
 	<Form.Field {form} name="lname">
 		<Form.Control let:attrs>
 			<Form.Label>Last name</Form.Label>
-			<Input {...attrs} bind:value={$formData.lname} />
+			<Input type="text" {...attrs} bind:value={$formData.lname} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -43,7 +43,7 @@
 	<Form.Field {form} name="phone">
 		<Form.Control let:attrs>
 			<Form.Label>Phone number</Form.Label>
-			<Input {...attrs} bind:value={$formData.phone} />
+			<Input type="tel" {...attrs} bind:value={$formData.phone} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -51,7 +51,7 @@
 	<Form.Field {form} name="address">
 		<Form.Control let:attrs>
 			<Form.Label>Address</Form.Label>
-			<Input {...attrs} bind:value={$formData.address} />
+			<Input type="text" {...attrs} bind:value={$formData.address} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
@@ -59,7 +59,7 @@
 	<Form.Field {form} name="password">
 		<Form.Control let:attrs>
 			<Form.Label>Password</Form.Label>
-			<Input {...attrs} bind:value={$formData.password} />
+			<Input type="password" {...attrs} bind:value={$formData.password} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
