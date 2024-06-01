@@ -98,5 +98,5 @@
 	<p class="my-2">
 		Već imate nalog? <a class="hover:underline" href="/login">Prijava</a>
 	</p>
-	<Form.Button>Registracija</Form.Button>
+	<Form.Button>Registruj se</Form.Button>
 </form>
