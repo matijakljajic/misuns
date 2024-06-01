@@ -32,7 +32,7 @@ Project consists of:
         - [x] Otpuštanje dispečera (button)
         - [x] Ažuriranje podataka o dispečeru (`/admin/dispatchers/1/update`)
     - [x] Zapošljavanje dispečera (`/admin/dispatchers/hire`)
-  - Dispatcher
+  - [ ] Dispatcher
     - [x] Pregled svih pošiljki (`/dispatcher/packages`)
       - [x] Prikaz pošiljke (`/dispatcher/packages/1`)
         - [x] Ažuriranje statusa pošiljke (dropdown selector)
@@ -47,7 +47,7 @@ Project consists of:
       - [ ] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
         - [ ] Zatvaranje tiketa za podršku (button)
     - [x] Zapošljavanje kurira (`/dispatcher/couriers/hire`)
-  - Courier:
+  - [ ] Courier:
     - [ ] Pregled dodeljenih pošiljki (`/courier/packages`)
       - [ ] Prikaz pošiljke (`/courier/packages/1`)
         - [ ] Ažuriranje statusa pošiljke (dropdown selector)
