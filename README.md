@@ -11,28 +11,28 @@ Project consists of:
   - [x] 3 sequence diagrams
   - [ ] 1 package diagram
 - Partial implementation
-  - [ ] Client
-    - [ ] Pregled profila
-      - [ ] Ažuriranje podataka
-    - [ ] Kreiranje pošiljke
-      - [ ] Upisivanje modela plaćanja
-      - [ ] Upisivanje informacija primaoca
-      - [ ] Upisivanje napomena za kurira
+  - [ ] Klijent (`/client`)
+    - [x] Pregled profila (`/client/profile`)
+      - [ ] Ažuriranje podataka (`/client/profile/update`)
+    - [x] Kreiranje pošiljke (`/client/packages/send`)
+      - [x] Upisivanje modela plaćanja (radio button)
+      - [x] Upisivanje informacija primaoca (form)
+      - [x] Upisivanje napomena za kurira (input)
     - [ ] Obaveštenje o promeni statusa pošiljke
-    - [ ] Pregled istorijata pošiljki
-      - [ ] Prikaz napravljene pošiljke
+    - [x] Pregled istorijata pošiljki (`/client/packages`)
+      - [ ] Prikaz napravljene pošiljke (`/client/packages/1`)
         - [ ] Ocenjivanje kurira
-        - [ ] Otvaranje novog tiketa za podršku
+        - [x] Otvaranje novog tiketa za podršku (wrong path)
         - [ ] Prikaz tiketa za podršku
-    - [ ] Pregled istorijata tiketa
-      - [ ] Prikaz tiketa za podršku
-  - [x] Administrator
+    - [x] Pregled istorijata tiketa (`/client/tickets`)
+      - [x] Prikaz tiketa za podršku (`/client/tickets/1`)
+  - [x] Admin (`/admin`)
     - [x] Pregled svih dispečera (`/admin/dispatchers`)
       - [x] Prikaz dispečera (`/admin/dispatchers/1`)
         - [x] Otpuštanje dispečera (button)
         - [x] Ažuriranje podataka o dispečeru (`/admin/dispatchers/1/update`)
     - [x] Zapošljavanje dispečera (`/admin/dispatchers/hire`)
-  - [ ] Dispatcher
+  - [ ] Dispečer (`/dispatcher`)
     - [x] Pregled svih pošiljki (`/dispatcher/packages`)
       - [x] Prikaz pošiljke (`/dispatcher/packages/1`)
         - [x] Ažuriranje statusa pošiljke (dropdown selector)
@@ -47,7 +47,7 @@ Project consists of:
       - [x] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
         - [x] Zatvaranje tiketa za podršku (button)
     - [x] Zapošljavanje kurira (`/dispatcher/couriers/hire`)
-  - [x] Courier:
+  - [x] Kurir (`/courier`)
     - [x] Pregled dodeljenih pošiljki (`/courier/packages`)
       - [x] Prikaz pošiljke (`/courier/packages/1`)
         - [x] Ažuriranje statusa pošiljke (dropdown selector)
