@@ -101,11 +101,7 @@
 			</Form.Field>
 		</div>
 	</div>
-
-	<p class="my-2 text-center">
-		Već imate nalog? <a class="hover:underline" href="/login">Prijava</a>
-	</p>
 	<div class="my-2 flex w-full justify-center">
-		<Form.Button>Registruj se</Form.Button>
+		<Form.Button>Zaposli dispečera</Form.Button>
 	</div>
 </form>
