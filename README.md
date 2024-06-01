@@ -28,7 +28,7 @@ Project consists of:
     - [ ] Prikaz tiketa za podršku
   - Administrator
     - [x] Pregled svih dispečera (`/admin/dispatchers`)
-    - [x] Prikaz dispečera (`/admin/dispatchers/1)
+    - [x] Prikaz dispečera (`/admin/dispatchers/1`)
     - [x] Otpuštanje dispečera (button)
     - [x] Ažuriranje podataka o dispečeru (`/admin/dispatchers/1/update`)
     - [x] Zapošljavanje dispečera (`/admin/dispatchers/hire`)
