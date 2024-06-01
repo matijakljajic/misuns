@@ -13,19 +13,19 @@ Project consists of:
 - Partial implementation
   - Client
     - [ ] Pregled profila
-    - [ ] Ažuriranje podataka
-  - [ ] Kreiranje pošiljke
-    - [ ] Upisivanje modela plaćanja
-    - [ ] Upisivanje infomracija primaoca
-    - [ ] Upisivanje napomena za kurira
-  - [ ] Obaveštenje o promeni statusa pošiljke
-  - [ ] Pregled istorijata pošiljki
-    - [ ] Prikaz napravljene pošiljke
-      - [ ] Ocenjivanje kurira
-      - [ ] Otvaranje novog tiketa za podršku
+      - [ ] Ažuriranje podataka
+    - [ ] Kreiranje pošiljke
+      - [ ] Upisivanje modela plaćanja
+      - [ ] Upisivanje informacija primaoca
+      - [ ] Upisivanje napomena za kurira
+    - [ ] Obaveštenje o promeni statusa pošiljke
+    - [ ] Pregled istorijata pošiljki
+      - [ ] Prikaz napravljene pošiljke
+        - [ ] Ocenjivanje kurira
+        - [ ] Otvaranje novog tiketa za podršku
+        - [ ] Prikaz tiketa za podršku
+    - [ ] Pregled istorijata tiketa
       - [ ] Prikaz tiketa za podršku
-  - [ ] Pregled istorijata tiketa
-    - [ ] Prikaz tiketa za podršku
   - Administrator
     - [x] Pregled svih dispečera (`/admin/dispatchers`)
     - [x] Prikaz dispečera (`/admin/dispatchers/1`)
