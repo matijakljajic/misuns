@@ -34,7 +34,10 @@
 						<Table.Cell>{postalpackage.value}RSD</Table.Cell>
 					{/if}
 					<Table.Cell class="text-right">{postalpackage.note}</Table.Cell>
-					<Table.Cell class="text-right"><Button>Detaljnije</Button></Table.Cell>
+					<Table.Cell class="text-right"
+						><a href="/client/packages/{postalpackage.id}"><Button>Detaljnije</Button></a
+						></Table.Cell
+					>
 				</Table.Row>
 			{/each}
 		</Table.Body>
