@@ -11,7 +11,7 @@ Project consists of:
   - [x] 3 sequence diagrams
   - [ ] 1 package diagram
 - Partial implementation
-  - Client
+  - [ ] Client
     - [ ] Pregled profila
       - [ ] Ažuriranje podataka
     - [ ] Kreiranje pošiljke
@@ -26,11 +26,11 @@ Project consists of:
         - [ ] Prikaz tiketa za podršku
     - [ ] Pregled istorijata tiketa
       - [ ] Prikaz tiketa za podršku
-  - Administrator
+  - [x] Administrator
     - [x] Pregled svih dispečera (`/admin/dispatchers`)
-    - [x] Prikaz dispečera (`/admin/dispatchers/1`)
-    - [x] Otpuštanje dispečera (button)
-    - [x] Ažuriranje podataka o dispečeru (`/admin/dispatchers/1/update`)
+      - [x] Prikaz dispečera (`/admin/dispatchers/1`)
+        - [x] Otpuštanje dispečera (button)
+        - [x] Ažuriranje podataka o dispečeru (`/admin/dispatchers/1/update`)
     - [x] Zapošljavanje dispečera (`/admin/dispatchers/hire`)
   - Dispatcher
     - [x] Pregled svih pošiljki (`/dispatcher/packages`)
