@@ -1,4 +1,4 @@
-import { getPackages } from '$lib/server/db/packages'
+import { getPackages } from '$lib/server/db/packages';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 

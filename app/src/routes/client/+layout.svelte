@@ -1,5 +1,5 @@
 <script lang="ts">
-    import * as Menubar from '$lib/components/ui/menubar';
+	import * as Menubar from '$lib/components/ui/menubar';
 </script>
 
 <nav>
@@ -12,7 +12,7 @@
 				<Menubar.Item href="/client/packages/send">Nova Pošiljka</Menubar.Item>
 				<Menubar.Item href="/client/tickets">Moji Tiketi</Menubar.Item>
 			</Menubar.Content>
-            <Menubar.Item href="tel:+123456789">Kontaktiraj Službu</Menubar.Item>
+			<Menubar.Item href="tel:+123456789">Kontaktiraj Službu</Menubar.Item>
 		</Menubar.Menu>
 	</Menubar.Root>
 </nav>

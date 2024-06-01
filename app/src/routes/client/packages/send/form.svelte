@@ -17,17 +17,17 @@
 </script>
 
 <form method="POST" use:enhance>
-	<div class="flex justify-around space-x-2 mb-3">
+	<div class="mb-3 flex justify-around space-x-2">
 		<RadioGroup.Root value="kartica">
 			<Label>Plaćanje se vrši?</Label>
 			<div class="flex gap-3">
 				<div class="flex items-center space-x-2">
-				<RadioGroup.Item value="kartica" id="r1" />
-				<Label for="r1">Karticom</Label>
+					<RadioGroup.Item value="kartica" id="r1" />
+					<Label for="r1">Karticom</Label>
 				</div>
 				<div class="flex items-center space-x-2">
-				<RadioGroup.Item value="gotovina" id="r2" />
-				<Label for="r2">Gotovinom</Label>
+					<RadioGroup.Item value="gotovina" id="r2" />
+					<Label for="r2">Gotovinom</Label>
 				</div>
 			</div>
 		</RadioGroup.Root>
@@ -35,18 +35,18 @@
 			<Label>Ko snosi troškove?</Label>
 			<div class="flex gap-3">
 				<div class="flex items-center space-x-2">
-				<RadioGroup.Item value="posiljalac" id="r1" />
-				<Label for="r1">Pošiljalac</Label>
+					<RadioGroup.Item value="posiljalac" id="r1" />
+					<Label for="r1">Pošiljalac</Label>
 				</div>
 				<div class="flex items-center space-x-2">
-				<RadioGroup.Item value="primalac" id="r2" />
-				<Label for="r2">Primalac</Label>
+					<RadioGroup.Item value="primalac" id="r2" />
+					<Label for="r2">Primalac</Label>
 				</div>
 			</div>
 		</RadioGroup.Root>
 	</div>
 	<div class="flex space-x-2">
-		<div>	
+		<div>
 			<Form.Field {form} name="fname">
 				<Form.Control let:attrs>
 					<Form.Label>Ime Primaoca</Form.Label>
