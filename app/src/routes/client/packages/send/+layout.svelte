@@ -1,3 +1,3 @@
-<main class="h-dvh">
+<main>
 	<slot></slot>
 </main>
