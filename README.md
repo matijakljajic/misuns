@@ -43,9 +43,9 @@ Project consists of:
         - [x] Ažuriranje podataka o kuriru (`/dispatcher/couriers/1/update`)
         - [ ] Dodeljivanje nedodeljenih paketa
         - [x] Brisanje dodeljenih paketa (button in table)
-    - [ ] Pregled svih zahteva za podršku (`/dispatcher/tickets`)
-      - [ ] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
-        - [ ] Zatvaranje tiketa za podršku (button)
+    - [x] Pregled svih zahteva za podršku (`/dispatcher/tickets`)
+      - [x] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
+        - [x] Zatvaranje tiketa za podršku (button)
     - [x] Zapošljavanje kurira (`/dispatcher/couriers/hire`)
   - [ ] Courier:
     - [ ] Pregled dodeljenih pošiljki (`/courier/packages`)

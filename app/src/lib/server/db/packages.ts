@@ -1,6 +1,7 @@
+import type { PackageType } from '$lib/types/package';
 import { PackageStatusEnum } from '../../types/packagestatus';
 
-const packages = [
+const packages: PackageType[] = [
 	{
 		id: 1,
 		value: 2000,
@@ -24,10 +25,10 @@ const packages = [
 	}
 ];
 
-export function getPackages() {
+export function getPackages(): PackageType[] {
 	return packages;
 }
 
-export function getPackageById(id: number) {
+export function getPackageById(id: number): PackageType | undefined {
 	return packages.find((d) => d.id === id);
 }

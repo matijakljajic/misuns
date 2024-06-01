@@ -5,7 +5,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
 	const postalpackage = getPackageById(Number(params.package_id));
 	if (!postalpackage) {
-		error(404, 'Dispatcher not found');
+		error(404, 'Package not found');
 	}
 
 	return {
