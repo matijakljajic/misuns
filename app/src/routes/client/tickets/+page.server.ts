@@ -1,14 +1,14 @@
-import { getPackages } from '$lib/server/db/packages';
+import { getTickets } from '$lib/server/db/tickets';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
-	const packages = getPackages();
-	if (!packages) {
-		error(404, 'Packages not found');
+	const tickets = getTickets();
+	if (!tickets) {
+		error(404, 'Tickets not found');
 	}
 
 	return {
-		packages: packages
+		tickets: tickets
 	};
 };
