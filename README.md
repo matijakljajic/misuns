@@ -43,16 +43,16 @@ Project consists of:
         - [x] Ažuriranje podataka o kuriru (`/dispatcher/couriers/1/update`)
         - [ ] Dodeljivanje nedodeljenih paketa
         - [x] Brisanje dodeljenih paketa (button in table)
-    - [ ] Pregled svih zahteva za podršku (`/dispatcher/tickets`)
-      - [ ] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
-        - [ ] Zatvaranje tiketa za podršku (button)
+    - [x] Pregled svih zahteva za podršku (`/dispatcher/tickets`)
+      - [x] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
+        - [x] Zatvaranje tiketa za podršku (button)
     - [x] Zapošljavanje kurira (`/dispatcher/couriers/hire`)
-  - [ ] Courier:
-    - [ ] Pregled dodeljenih pošiljki (`/courier/packages`)
-      - [ ] Prikaz pošiljke (`/courier/packages/1`)
-        - [ ] Ažuriranje statusa pošiljke (dropdown selector)
-        - [ ] Izdavanje računa (`/courier/packages/1/receipt`)
-        - [ ] Prikaz ruta do adrese pošiljke (`/courier/packages/1/route`)
+  - [x] Courier:
+    - [x] Pregled dodeljenih pošiljki (`/courier/packages`)
+      - [x] Prikaz pošiljke (`/courier/packages/1`)
+        - [x] Ažuriranje statusa pošiljke (dropdown selector)
+        - [x] Izdavanje računa (`/courier/packages/1/receipt`)
+        - [x] Prikaz ruta do adrese pošiljke (`/courier/packages/1/route`)
 
 Final paper written in Serbian which encompasses all of the above can be found [here](https://github.com/matijakljajic/misuns/blob/main/MIS_tim33.pdf).
 

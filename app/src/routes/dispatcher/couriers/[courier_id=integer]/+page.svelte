@@ -73,7 +73,7 @@
 				<Table.Head class="w-[100px]">ID</Table.Head>
 				<Table.Head>Otkup</Table.Head>
 				<Table.Head>Masa</Table.Head>
-				<Table.Head class="text-right">Napomena</Table.Head>
+				<Table.Head>Napomena</Table.Head>
 				<Table.Head class="text-right">Obriši</Table.Head>
 			</Table.Row>
 		</Table.Header>
@@ -88,7 +88,7 @@
 					</Table.Cell>
 					<Table.Cell>{postalpackage.value}</Table.Cell>
 					<Table.Cell>{postalpackage.mass}</Table.Cell>
-					<Table.Cell class="text-right">
+					<Table.Cell>
 						{postalpackage.note !== '' ? postalpackage.note : 'Nema.'}
 					</Table.Cell>
 					<Table.Cell class="text-right">

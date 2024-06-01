@@ -8,7 +8,9 @@ export const load: PageServerLoad = async ({ params }) => {
 		error(404, 'Package not found');
 	}
 
+	const recipient = postalpackage.recipient;
+
 	return {
-		postalpackage: postalpackage
+		recipient: recipient
 	};
 };
