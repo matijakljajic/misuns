@@ -26,7 +26,7 @@
 	</Form.Field>
 	<Form.Field {form} name="fname">
 		<Form.Control let:attrs>
-			<Form.Label>First name</Form.Label>
+			<Form.Label>Ime</Form.Label>
 			<Input type="text" {...attrs} bind:value={$formData.fname} />
 		</Form.Control>
 		<Form.Description />
@@ -34,7 +34,7 @@
 	</Form.Field>
 	<Form.Field {form} name="lname">
 		<Form.Control let:attrs>
-			<Form.Label>Last name</Form.Label>
+			<Form.Label>Prezime</Form.Label>
 			<Input type="text" {...attrs} bind:value={$formData.lname} />
 		</Form.Control>
 		<Form.Description />
@@ -42,30 +42,62 @@
 	</Form.Field>
 	<Form.Field {form} name="phone">
 		<Form.Control let:attrs>
-			<Form.Label>Phone number</Form.Label>
+			<Form.Label>Telefon</Form.Label>
 			<Input type="tel" {...attrs} bind:value={$formData.phone} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
 	</Form.Field>
-	<Form.Field {form} name="address">
+	<Form.Field {form} name="addr_street">
 		<Form.Control let:attrs>
-			<Form.Label>Address</Form.Label>
-			<Input type="text" {...attrs} bind:value={$formData.address} />
+			<Form.Label>Ulica</Form.Label>
+			<Input type="text" {...attrs} bind:value={$formData.addr_street} />
+		</Form.Control>
+		<Form.Description />
+		<Form.FieldErrors />
+	</Form.Field>
+	<Form.Field {form} name="addr_number">
+		<Form.Control let:attrs>
+			<Form.Label>Broj ulice</Form.Label>
+			<Input type="text" {...attrs} bind:value={$formData.addr_number} />
+		</Form.Control>
+		<Form.Description />
+		<Form.FieldErrors />
+	</Form.Field>
+	<Form.Field {form} name="addr_city">
+		<Form.Control let:attrs>
+			<Form.Label>Grad</Form.Label>
+			<Input type="text" {...attrs} bind:value={$formData.addr_city} />
+		</Form.Control>
+		<Form.Description />
+		<Form.FieldErrors />
+	</Form.Field>
+	<Form.Field {form} name="addr_country">
+		<Form.Control let:attrs>
+			<Form.Label>Država</Form.Label>
+			<Input type="text" {...attrs} bind:value={$formData.addr_country} />
+		</Form.Control>
+		<Form.Description />
+		<Form.FieldErrors />
+	</Form.Field>
+	<Form.Field {form} name="addr_zip">
+		<Form.Control let:attrs>
+			<Form.Label>Poštanski broj</Form.Label>
+			<Input type="text" {...attrs} bind:value={$formData.addr_zip} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
 	</Form.Field>
 	<Form.Field {form} name="password">
 		<Form.Control let:attrs>
-			<Form.Label>Password</Form.Label>
+			<Form.Label>Šifra</Form.Label>
 			<Input type="password" {...attrs} bind:value={$formData.password} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
 	</Form.Field>
 	<p class="my-2">
-		Already have an account? <a class="hover:underline" href="/login">Login</a>
+		Već imate nalog? <a class="hover:underline" href="/login">Prijava</a>
 	</p>
-	<Form.Button>Register</Form.Button>
+	<Form.Button>Registracija</Form.Button>
 </form>

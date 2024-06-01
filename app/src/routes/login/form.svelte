@@ -25,14 +25,14 @@
 	</Form.Field>
 	<Form.Field {form} name="password">
 		<Form.Control let:attrs>
-			<Form.Label>Password</Form.Label>
+			<Form.Label>Šifra</Form.Label>
 			<Input type="password" {...attrs} bind:value={$formData.password} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />
 	</Form.Field>
 	<p class="my-2">
-		Don't have an account? <a class="hover:underline" href="/register">Register</a>
+		Nemate nalog? <a class="hover:underline" href="/register">Registracija</a>
 	</p>
-	<Form.Button>Login</Form.Button>
+	<Form.Button>Prijavi se</Form.Button>
 </form>
