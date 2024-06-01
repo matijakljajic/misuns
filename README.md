@@ -47,7 +47,7 @@ Project consists of:
       - [x] Prikaz tiketa za podršku (`/dispatcher/tickets/open`)
         - [x] Zatvaranje tiketa za podršku (button)
     - [x] Zapošljavanje kurira (`/dispatcher/couriers/hire`)
-  - [ ] Courier:
+  - [x] Courier:
     - [x] Pregled dodeljenih pošiljki (`/courier/packages`)
       - [x] Prikaz pošiljke (`/courier/packages/1`)
         - [x] Ažuriranje statusa pošiljke (dropdown selector)
