@@ -7,9 +7,11 @@
 - Misunderstanding of 'MessageSender' interface and its usecase. According to professor, it should have been a controller class instead of an interface.
 - Grade: 20/20
 
+
+
 <details>
 
-<summary>Project & Implementation TODO<\summary>
+<summary>Project & Implementation TODO</summary>
 
 - UML diagrams
   - [x] 1 usecase diagram
@@ -61,7 +63,7 @@
         - [x] Izdavanje računa (`/courier/packages/1/receipt`)
         - [x] Prikaz ruta do adrese pošiljke (`/courier/packages/1/route`)
 
-<\details>
+</details>
 
 Final paper written in Serbian which encompasses all of the above can be found [here](https://github.com/matijakljajic/misuns/blob/main/MIS_tim33.pdf).
 
