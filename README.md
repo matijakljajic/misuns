@@ -1,15 +1,22 @@
 # "Modelling of Information Systems" Group Project
 
-## Modelling of an information system for a courier service
+## Modelling of an information system for a courier
 
-Project consists of:
+### Professor's remarks:
+- There are trivial copy-paste problems in sequence diagrams.
+- Misunderstanding of 'MessageSender' interface and its usecase. According to professor, it should have been a controller class instead of an interface.
+- Grade: 20/20
+
+<details>
+
+<summary>Project & Implementation TODO<\summary>
 
 - UML diagrams
   - [x] 1 usecase diagram
   - [x] 2 activity diagrams
   - [x] 1 class diagram
   - [x] 3 sequence diagrams
-  - [ ] 1 package diagram
+  - [x] 1 package diagram
 - Partial implementation
   - [ ] Klijent (`/client`)
     - [x] Pregled profila (`/client/profile`)
@@ -54,7 +61,10 @@ Project consists of:
         - [x] Izdavanje računa (`/courier/packages/1/receipt`)
         - [x] Prikaz ruta do adrese pošiljke (`/courier/packages/1/route`)
 
+<\details>
+
 Final paper written in Serbian which encompasses all of the above can be found [here](https://github.com/matijakljajic/misuns/blob/main/MIS_tim33.pdf).
+
 
 ## Team 33
 
