@@ -8,12 +8,12 @@
 - Grade: 20/20
 
 ### Most Important Factor Being Graded
+
 It should be noted that the professor mainly grades **consistency** between diagrams as the main point of this assignment is modelling itself, not the realisation/implementation of the model.
 
-<details><summary>
-
 ### Project & Implementation TODO
-</summary>
+
+<details><summary><i>Expand</i></summary>
 - UML diagrams
   - [x] 1 usecase diagram
   - [x] 2 activity diagrams
