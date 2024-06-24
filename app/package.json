@@ -10,12 +10,15 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"db-init": "pnpm drizzle-kit generate",
+		"db-migrate": "pnpm drizzle-kit migrate"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.2.1",
 		"@sveltejs/kit": "^2.5.10",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/better-sqlite3": "^7.6.10",
 		"@types/eslint": "^8.56.10",
 		"autoprefixer": "^10.4.19",
 		"drizzle-kit": "^0.22.1",
@@ -31,6 +34,7 @@
 		"svelte-check": "^3.8.0",
 		"tailwindcss": "^3.4.3",
 		"tslib": "^2.6.2",
+		"tsx": "^4.15.7",
 		"typescript": "^5.4.5",
 		"typescript-eslint": "8.0.0-alpha.24",
 		"vite": "^5.2.12",

@@ -31,7 +31,7 @@
 					</Table.Cell>
 					<Table.Cell>{ticket.title}</Table.Cell>
 					<Table.Cell class="text-right">
-						{ticket.reason_for_closing !== '' ? ticket.reason_for_closing : 'Nema.'}
+						{ticket.reasonForClosing !== '' ? ticket.reasonForClosing : 'Nema.'}
 					</Table.Cell>
 				</Table.Row>
 			{/each}

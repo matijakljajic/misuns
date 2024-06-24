@@ -55,10 +55,10 @@
 				<Form.Description />
 				<Form.FieldErrors />
 			</Form.Field>
-			<Form.Field {form} name="otkup">
+			<Form.Field {form} name="cost">
 				<Form.Control let:attrs>
 					<Form.Label>Otkup</Form.Label>
-					<Input type="number" {...attrs} bind:value={$formData.otkup} />
+					<Input type="number" {...attrs} bind:value={$formData.cost} />
 				</Form.Control>
 				<Form.Description />
 				<Form.FieldErrors />
@@ -73,20 +73,20 @@
 				<Form.Description />
 				<Form.FieldErrors />
 			</Form.Field>
-			<Form.Field {form} name="masa">
+			<Form.Field {form} name="mass">
 				<Form.Control let:attrs>
 					<Form.Label>Masa</Form.Label>
-					<Input type="number" {...attrs} bind:value={$formData.masa} />
+					<Input type="number" {...attrs} bind:value={$formData.mass} />
 				</Form.Control>
 				<Form.Description />
 				<Form.FieldErrors />
 			</Form.Field>
 		</div>
 	</div>
-	<Form.Field {form} name="napomena">
+	<Form.Field {form} name="note">
 		<Form.Control let:attrs>
 			<Form.Label>Napomena</Form.Label>
-			<Input type="text" {...attrs} bind:value={$formData.napomena} />
+			<Input type="text" {...attrs} bind:value={$formData.note} />
 		</Form.Control>
 		<Form.Description />
 		<Form.FieldErrors />

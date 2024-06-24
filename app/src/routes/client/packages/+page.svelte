@@ -28,10 +28,10 @@
 						<p>{postalpackage.id}</p>
 					</Table.Cell>
 					<Table.Cell>{postalpackage.mass}</Table.Cell>
-					{#if postalpackage.value === 0}
+					{#if postalpackage.cost === 0}
 						<Table.Cell>Nema.</Table.Cell>
 					{:else}
-						<Table.Cell>{postalpackage.value}RSD</Table.Cell>
+						<Table.Cell>{postalpackage.cost}RSD</Table.Cell>
 					{/if}
 					<Table.Cell class="text-right">{postalpackage.note}</Table.Cell>
 					<Table.Cell class="text-right"

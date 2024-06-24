@@ -9,7 +9,7 @@ Project consists of:
   - [x] 2 activity diagrams
   - [x] 1 class diagram
   - [x] 3 sequence diagrams
-  - [ ] 1 package diagram
+  - [x] 1 package diagram
 - Partial implementation
   - [ ] Klijent (`/client`)
     - [x] Pregled profila (`/client/profile`)
@@ -23,7 +23,7 @@ Project consists of:
       - [ ] Prikaz napravljene pošiljke (`/client/packages/1`)
         - [ ] Ocenjivanje kurira
         - [x] Otvaranje novog tiketa za podršku (wrong path)
-        - [ ] Prikaz tiketa za podršku
+        - [x] Prikaz tiketa za podršku
     - [x] Pregled istorijata tiketa (`/client/tickets`)
       - [x] Prikaz tiketa za podršku (`/client/tickets/1`)
   - [x] Admin (`/admin`)

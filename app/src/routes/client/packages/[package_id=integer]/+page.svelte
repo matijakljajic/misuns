@@ -12,7 +12,7 @@
 		Status: {postalpackage.status}
 	</p>
 	<p class="text-xl">
-		Otkup: {postalpackage.value !== 0 ? `${postalpackage.value}rsd` : 'Nema'}
+		Otkup: {postalpackage.cost !== 0 ? `${postalpackage.cost}rsd` : 'Nema'}
 	</p>
 	<p class="text-xl">Masa: {postalpackage.mass}g</p>
 	<div class="flex items-center justify-center space-x-3">
