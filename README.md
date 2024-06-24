@@ -1,13 +1,14 @@
 # "Modelling of Information Systems" Group Project
 
-## Modelling of an information system for a courier
+## Modelling of an information system for a courier company
 
 ### Professor's remarks:
 - There are trivial copy-paste problems in sequence diagrams.
-- Misunderstanding of 'MessageSender' interface and its usecase. According to professor, it should have been a controller class instead of an interface.
+- Misunderstanding of 'MessageSender' interface and its usecase. According to professor, it should have been a controller class instead of an interface but still okay according to our explaination.
 - Grade: 20/20
 
-
+### Most Important Factor Being Graded
+It should be noted that the professor mainly grades **consistency** between diagrams as the main point of this assignment is modelling itself, not the realisation/implementation of the model.
 
 <details>
 
@@ -64,6 +65,8 @@
         - [x] Prikaz ruta do adrese pošiljke (`/courier/packages/1/route`)
 
 </details>
+
+Implementation is partially done in our case using Sveltekit and sqlite3.
 
 Final paper written in Serbian which encompasses all of the above can be found [here](https://github.com/matijakljajic/misuns/blob/main/MIS_tim33.pdf).
 
