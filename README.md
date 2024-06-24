@@ -12,7 +12,7 @@ It should be noted that the professor mainly grades **consistency** between diag
 
 <details>
 
-<summary>Project & Implementation TODO</summary>
+<summary>### Project & Implementation TODO</summary>
 
 - UML diagrams
   - [x] 1 usecase diagram
