@@ -10,12 +10,9 @@
 ### Most Important Factor Being Graded
 It should be noted that the professor mainly grades **consistency** between diagrams as the main point of this assignment is modelling itself, not the realisation/implementation of the model.
 
-<details>
-
-<summary>
+<details><summary>
 
 <h3>Project & Implementation TODO</h3>
-
 </summary>
 
 - UML diagrams
