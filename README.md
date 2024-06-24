@@ -14,6 +14,7 @@ It should be noted that the professor mainly grades **consistency** between diag
 ### Project & Implementation TODO
 
 <details><summary><i>Expand</i></summary>
+
 - UML diagrams
   - [x] 1 usecase diagram
   - [x] 2 activity diagrams
