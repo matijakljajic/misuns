@@ -1,7 +1,11 @@
 {
   "version": "6",
   "dialect": "sqlite",
+<<<<<<< Updated upstream
   "id": "02c10604-45c6-480a-b26b-7bac1e52818e",
+=======
+  "id": "ab2b12e3-3d7b-43a3-ba51-891e192bcca3",
+>>>>>>> Stashed changes
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "address": {

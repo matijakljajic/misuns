@@ -1,7 +1,7 @@
 // import type { TicketType } from '$lib/types/ticket';
 import { eq } from 'drizzle-orm';
 import { db } from './db';
-import { tickets } from './schema';
+import { ticketMessages, tickets } from './schema';
 
 // const tickets: TicketType[] = [
 // 	{
@@ -70,4 +70,32 @@ export async function getTickets(senderId: number) {
 export async function getTicketById(id: number) {
 	const found = await db.select().from(tickets).where(eq(tickets.id, id));
 	return found ? found[0] : null;
+}
+
+export async function getTicketMessagesById(id: number) {
+	const found = await db.select().from(ticketMessages).where(eq(ticketMessages.id, id));
+	return found ? found : null;
+}
+
+type TicketType = typeof tickets.$inferInsert;
+type TicketMessageType = typeof ticketMessages.$inferInsert;
+export async function insertTicket(senderId: number, title: string, msg: string) {
+	await db.transaction(async (tx) => {
+		const t: TicketType = {
+			sender: senderId,
+			title: title
+		};
+
+		const ticketId = await tx.insert(tickets).values(t).returning({ insertedId: tickets.id });
+		if (!ticketId || ticketId.length === 0) {
+			throw new Error('Failed to insert ticket');
+		}
+
+		const m: TicketMessageType = {
+			sender: senderId,
+			ticket: ticketId[0].insertedId,
+			content: msg
+		};
+		await tx.insert(ticketMessages).values(m);
+	});
 }
